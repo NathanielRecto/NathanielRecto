@@ -2,10 +2,10 @@
 
 <img src="banner.svg" width="100%" alt="Nathaniel Recto: computer vision, machine learning, embedded systems"/>
 
-<a href="PORTFOLIO_LINK"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://nathaniel-recto.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 <a href="https://linkedin.com/in/nathaniel-recto"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nd2hpdGUnIGQ9J000Ljk4IDMuNWEyLjUgMi41IDAgMSAxLTUgMCAyLjUgMi41IDAgMCAxIDUgMHpNLjUgOGg0djE2aC00Vjh6bTcuNSAwaDMuOHYyLjJoLjA1Yy41My0xIDEuODMtMi4yIDMuNzctMi4yIDQuMDMgMCA0Ljc4IDIuNjUgNC43OCA2LjFWMjRoLTR2LTcuMWMwLTEuNy0uMDMtMy45LTIuNC0zLjktMi40IDAtMi43NyAxLjg3LTIuNzcgMy44VjI0aC00Vjh6Jy8%2BPC9zdmc%2B" alt="LinkedIn"/></a>
 <a href="mailto:nrecto.0225@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="RESUME_LINK"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-30363D?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé"/></a>
+<a href="Nathaniel-Recto-Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-30363D?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"/></a>
 
 </div>
 
