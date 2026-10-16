@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title">
+  <title id="title">Nathaniel Recto: computer vision, machine learning, embedded systems</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#1a1240"/>
+      <stop offset="0.5" stop-color="#33208a"/>
+      <stop offset="1" stop-color="#4b2fb8"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.74" cy="0.55" r="0.42">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="keys" width="12.4" height="9.4" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="10.4" height="7.4" rx="1.6" fill="#4a5080" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="0.6"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="320" rx="16"/></clipPath>
+    <clipPath id="typing">
+      <rect x="0" y="0" width="100" height="0">
+        <animate attributeName="height" values="0;100;100" keyTimes="0;0.65;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <rect width="1200" height="320" fill="url(#halo)"/>
+
+    <!-- twinkling particles -->
+    <g fill="#a5f3fc">
+      <circle cx="640" cy="60" r="1.8"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="262" r="1.5"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="822" cy="38" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="985" cy="300" r="1.6"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1172" cy="150" r="1.8"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1180" cy="290" r="1.4"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="620" cy="190" r="1.4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="20" r="1.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- name and tagline -->
+    <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="1.2s" fill="freeze"/>
+      <rect x="60" y="94" width="44" height="4" rx="2" fill="#22d3ee"/>
+      <text x="57" y="160" font-size="58" font-weight="700" fill="#ffffff">Nathaniel Recto</text>
+      <text x="60" y="204" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#67e8f9">computer vision · machine learning · embedded</text>
+      <text x="60" y="242" font-size="17" fill="#c4b5fd">Computer Engineering graduate · Toronto Metropolitan University</text>
+    </g>
+
+    <!-- floor: circuit traces, nodes and travelling pulses (isometric floor plane) -->
+    <g transform="matrix(0.866 0.5 -0.866 0.5 860 130)">
+      <g fill="none" stroke="#22d3ee" stroke-width="2.2" stroke-opacity="0.75" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0 70H-70V30"/>
+        <path d="M170 60H230V-46"/>
+        <path d="M40 110V140H-40"/>
+      </g>
+      <g fill="#34d399">
+        <circle cx="-70" cy="30" r="18" fill-opacity="0.18"/>
+        <circle cx="-70" cy="30" r="9" fill-opacity="0.55"/>
+        <circle cx="230" cy="-46" r="12" fill-opacity="0.25"/>
+        <circle cx="230" cy="-46" r="5" fill-opacity="0.9"/>
+        <circle cx="-40" cy="140" r="12" fill-opacity="0.25"/>
+        <circle cx="-40" cy="140" r="5" fill-opacity="0.9"/>
+      </g>
+      <circle cx="-70" cy="30" r="14" fill="none" stroke="#6ee7b7" stroke-width="1.5">
+        <animate attributeName="r" values="12;30" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <g fill="#ecfeff" filter="url(#glow)">
+        <circle r="3.5"><animateMotion dur="2.2s" repeatCount="indefinite" path="M0 70H-70V30"/></circle>
+        <circle r="3.5"><animateMotion dur="2.8s" repeatCount="indefinite" path="M170 60H230V-46"/></circle>
+        <circle r="3.5"><animateMotion dur="2.5s" begin="0.8s" repeatCount="indefinite" path="M40 110V140H-40"/></circle>
+      </g>
+    </g>
+
+    <!-- floating cube -->
+    <rect x="763" y="88" width="20" height="24" fill="url(#beam)"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="773 52;773 44;773 52" dur="3s" repeatCount="indefinite"/>
+      <g stroke="#e0f2fe" stroke-opacity="0.55" stroke-width="1" stroke-linejoin="round">
+        <polygon points="0,-34 29.4,-17 0,0 -29.4,-17" fill="#a5f3fc"/>
+        <polygon points="-29.4,-17 0,0 0,34 -29.4,17" fill="#7c3aed"/>
+        <polygon points="0,0 29.4,-17 29.4,17 0,34" fill="#0891b2"/>
+      </g>
+      <path d="M-20 -1L-9 5.5M-20 7L-9 13.5M-20 15L-13 19" stroke="#ddd6fe" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- laptop lid: top and side edges -->
+    <polygon points="860,25 1007.2,110 1011.5,107.5 864.3,22.5" fill="#2b2f4a"/>
+    <polygon points="1007.2,110 1007.2,215 1011.5,212.5 1011.5,107.5" fill="#1c1f33"/>
+
+    <!-- laptop screen (isometric screen plane) -->
+    <g transform="matrix(0.866 0.5 0 1 860 25)">
+      <rect width="170" height="105" rx="6" fill="#11131f" stroke="#8b5cf6" stroke-opacity="0.6" stroke-width="1.2"/>
+      <rect x="6" y="6" width="158" height="92" rx="3" fill="#0a0c1c"/>
+      <g clip-path="url(#typing)">
+        <rect x="12" y="15" width="40" height="3" rx="1.5" fill="#a78bfa"/>
+        <rect x="56" y="15" width="28" height="3" rx="1.5" fill="#67e8f9"/>
+        <rect x="20" y="23" width="60" height="3" rx="1.5" fill="#67e8f9"/>
+        <rect x="20" y="31" width="34" height="3" rx="1.5" fill="#6ee7b7"/>
+        <rect x="58" y="31" width="24" height="3" rx="1.5" fill="#e2e8f0" fill-opacity="0.6"/>
+        <rect x="28" y="39" width="50" height="3" rx="1.5" fill="#a78bfa"/>
+        <rect x="28" y="47" width="30" height="3" rx="1.5" fill="#67e8f9"/>
+        <rect x="62" y="47" width="18" height="3" rx="1.5" fill="#f0abfc"/>
+        <rect x="20" y="55" width="44" height="3" rx="1.5" fill="#6ee7b7"/>
+        <rect x="12" y="63" width="24" height="3" rx="1.5" fill="#a78bfa"/>
+        <rect x="12" y="71" width="56" height="3" rx="1.5" fill="#67e8f9"/>
+        <rect x="20" y="79" width="38" height="3" rx="1.5" fill="#e2e8f0" fill-opacity="0.6"/>
+      </g>
+      <rect x="62" y="78" width="5" height="5" fill="#67e8f9">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+      <!-- training curve and progress bars -->
+      <rect x="98" y="14" width="58" height="46" rx="3" fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.5"/>
+      <polyline points="102,22 110,34 118,42 126,47 134,50 142,52 152,53" fill="none" stroke="#34d399" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100 100" stroke-dashoffset="100">
+        <animate attributeName="stroke-dashoffset" values="100;0;0" keyTimes="0;0.6;1" dur="6s" repeatCount="indefinite"/>
+      </polyline>
+      <g fill="#ffffff" fill-opacity="0.12">
+        <rect x="98" y="68" width="58" height="4" rx="2"/>
+        <rect x="98" y="77" width="58" height="4" rx="2"/>
+        <rect x="98" y="86" width="58" height="4" rx="2"/>
+      </g>
+      <rect x="98" y="68" width="0" height="4" rx="2" fill="#67e8f9"><animate attributeName="width" values="0;50;50" keyTimes="0;0.5;1" dur="6s" repeatCount="indefinite"/></rect>
+      <rect x="98" y="77" width="0" height="4" rx="2" fill="#a78bfa"><animate attributeName="width" values="0;0;38;38" keyTimes="0;0.15;0.6;1" dur="6s" repeatCount="indefinite"/></rect>
+      <rect x="98" y="86" width="0" height="4" rx="2" fill="#6ee7b7"><animate attributeName="width" values="0;0;56;56" keyTimes="0;0.3;0.75;1" dur="6s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- laptop base: side thickness, top deck, keyboard, trackpad -->
+    <polygon points="764.7,185 912,270 912,277 764.7,192" fill="#1c1f33"/>
+    <polygon points="912,270 1007.2,215 1007.2,222 912,277" fill="#262a42"/>
+    <g transform="matrix(0.866 0.5 -0.866 0.5 860 130)">
+      <rect width="170" height="110" rx="6" fill="#34395a" stroke="#8b5cf6" stroke-opacity="0.55" stroke-width="1.2"/>
+      <rect x="12" y="9" width="148.8" height="47" fill="url(#keys)">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="58" y="66" width="54" height="34" rx="3" fill="#2b2f4a" stroke="#a78bfa" stroke-opacity="0.45"/>
+    </g>
+
+    <!-- floating panel with a small neural network -->
+    <line x1="1099.2" y1="222" x2="1099.2" y2="204" stroke="#67e8f9" stroke-width="1.5" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" repeatCount="indefinite"/>
+      <g transform="matrix(0.866 0.5 0 1 1051.6 24.5)">
+        <rect width="110" height="150" rx="8" fill="url(#glass)" stroke="#67e8f9" stroke-opacity="0.75" stroke-width="1.2"/>
+        <rect x="10" y="10" width="54" height="6" rx="3" fill="#a5f3fc" fill-opacity="0.8"/>
+        <g fill="#ffffff" fill-opacity="0.7">
+          <circle cx="84" cy="13" r="2.2"/><circle cx="92" cy="13" r="2.2"/><circle cx="100" cy="13" r="2.2"/>
+        </g>
+        <g stroke="#a5f3fc" stroke-opacity="0.35" stroke-width="1">
+          <path d="M22 45L55 38M22 45L55 62M22 45L55 86M22 45L55 110M22 75L55 38M22 75L55 62M22 75L55 86M22 75L55 110M22 105L55 38M22 105L55 62M22 105L55 86M22 105L55 110"/>
+          <path d="M55 38L88 58M55 38L88 90M55 62L88 58M55 62L88 90M55 86L88 58M55 86L88 90M55 110L88 58M55 110L88 90"/>
+        </g>
+        <g stroke="#a5f3fc" stroke-width="1.2" fill="#0e7490">
+          <g>
+            <animate attributeName="fill" values="#0e7490;#ecfeff;#0e7490;#0e7490" keyTimes="0;0.15;0.33;1" dur="2.4s" repeatCount="indefinite"/>
+            <circle cx="22" cy="45" r="5"/><circle cx="22" cy="75" r="5"/><circle cx="22" cy="105" r="5"/>
+          </g>
+          <g>
+            <animate attributeName="fill" values="#0e7490;#0e7490;#ecfeff;#0e7490;#0e7490" keyTimes="0;0.33;0.48;0.66;1" dur="2.4s" repeatCount="indefinite"/>
+            <circle cx="55" cy="38" r="5"/><circle cx="55" cy="62" r="5"/><circle cx="55" cy="86" r="5"/><circle cx="55" cy="110" r="5"/>
+          </g>
+          <g>
+            <animate attributeName="fill" values="#0e7490;#0e7490;#6ee7b7;#0e7490" keyTimes="0;0.66;0.8;1" dur="2.4s" repeatCount="indefinite"/>
+            <circle cx="88" cy="58" r="5"/><circle cx="88" cy="90" r="5"/>
+          </g>
+        </g>
+        <rect x="10" y="130" width="90" height="6" rx="3" fill="#ffffff" fill-opacity="0.15"/>
+        <rect x="10" y="130" width="0" height="6" rx="3" fill="#6ee7b7"><animate attributeName="width" values="0;90;90" keyTimes="0;0.8;1" dur="4s" repeatCount="indefinite"/></rect>
+      </g>
+    </g>
+  </g>
+</svg>
