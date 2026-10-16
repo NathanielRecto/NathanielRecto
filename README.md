@@ -11,11 +11,13 @@
 
 <br/>
 
-<img align="right" width="120" src="chip.svg" alt="A glowing microchip with data pulses flowing into it"/>
+
 
 ## 💡 About Me
 
-I'm a Computer Engineering graduate from **Toronto Metropolitan University** who builds computer-vision and machine-learning systems that run in real time on real devices.
+<img align="right" width="150" src="chip.svg" alt="A glowing microchip with data pulses flowing into it"/>
+
+I'm a Computer Engineering graduate from <b>Toronto Metropolitan University</b> who builds <b>computer-vision</b> and <b>machine-learning systems</b> that run in real time on real devices.
 
 I care as much about measuring how well something works as I do about getting it to work.
 
