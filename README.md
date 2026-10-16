@@ -11,7 +11,7 @@
 
 <br/>
 
-<img align="right" width="140" src="chip.svg" alt="A glowing microchip with data pulses flowing into it"/>
+<img align="right" width="120" src="chip.svg" alt="A glowing microchip with data pulses flowing into it"/>
 
 ## 💡 About Me
 
@@ -121,9 +121,14 @@ I care as much about measuring how well something works as I do about getting it
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.shion.dev/api?username=NathanielRecto&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=NathanielRecto&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=NathanielRecto&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+<img height="165" src="https://github-readme-stats.shion.dev/api?username=NathanielRecto&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub stats"/>
+&nbsp;
+<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=NathanielRecto&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top languages"/>
+</p>
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=NathanielRecto&theme=dark&hide_border=false" alt="GitHub streak"/>
+</p>
 
 <br/>
 
