@@ -119,12 +119,11 @@ I care as much about measuring how well something works as I do about getting it
 
 <br/>
 
-## 📈 GitHub Activity
+## 📊 GitHub Stats
 
-<p align="center">
-<img height="150" src="https://github-readme-stats.shion.dev/api?username=NathanielRecto&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide_border=true&bg_color=00000000&title_color=7C3AED&icon_color=7C3AED&text_color=8B949E" alt="GitHub stats"/>
-<img height="150" src="https://streak-stats.demolab.com/?user=NathanielRecto&hide_border=true&background=00000000&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED&currStreakNum=8B949E&sideNums=8B949E&sideLabels=8B949E&dates=8B949E" alt="GitHub streak"/>
-</p>
+![](https://github-readme-stats.shion.dev/api?username=NathanielRecto&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=NathanielRecto&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=NathanielRecto&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 <br/>
 
